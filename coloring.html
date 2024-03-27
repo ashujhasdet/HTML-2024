@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="style.css">
+	<style >
+		body{
+			background-color: black;
+		}
+	</style>
+</head>
+<body>
+	<!-- <h2>"We can use Ctrl + / ==> It will make the selected portion as comment"</h2> -->
+
+	<h2>"Text Formatting"</h2>
+	<h3>h3 tag displays information in bold by default</h3>
+	<p>b tag = Make something bold + Less <b>important</b>.</p>
+	<p>Strong tag is used to show something very <strong>important</strong></p>
+	<p>To make a text italic we can use i tag <i>This is italic</i>
+	</p>
+	
+	<p>To emphasize something we can use <em>emphasis</em></p>
+	<ul> <h4>Some important tags are:</h4>
+		<li>b, strong</li>
+		<li>i, em</li>
+		<li>small</li>
+		<li>sub , sup</li>
+		<li>del , mark</li>
+
+		
+	</ul>
+	<p>sub tag is used for writing subscript</p>
+	<p>Formula of Water is = H<sub>2</sub>O</p>
+	<p>sup tag is used for writing super script</p>
+	<p>Formula to calculate area of a square with side x cm = x<sup></sup>2</p>
+
+	<p>mark tag is used to write highlighted text</p>
+	<p>Talk is Cheap. <mark>Show me the Code!!!<mark></p>
+
+	<p>del tag is used to show text that has been removed </p>
+	<p>ins tag is used to show text that has been added to the file
+	</p>
+	<p>I <del> was </del> <ins> am </ins> a student of <mark>computer science and Engineering.</mark></p>
+
+	<p>We can use style attribute  for doing inline styling: </p>
+	<p style=
+	"text-align: center; 
+	background-color: #FFA500;
+	">
+    "Let's Do Some Styling"</p>
+
+    <h2>We have Global attributes like style and title which can be used with any tag</h2>
+
+    <p>We can use following coloring mechanism to use color in HTML</p>
+    <ul>
+    	<li>hex values like #FFA500</li>
+	    <li>rgb() or rgba mean red green blue and alpha , where alpha mean opacity </li>
+	    <li>hsl() or hsla() hue, saturation, light intensity</li>
+    	
+    </ul>
+
+    <p>We now know that we can do In line styling using style attribute. <br />
+    The another way to add styling is to create a seperate css file and link that file in header of HTML file using
+     link:css + tab </p>
+
+    <p>There is also another method to do styling.<br />
+     We can use style tag in head and set styling values</p>
+     
+    <p>
+    	<blockquote cite="Aashu Jha">blockquote is used to make web pages understabd 
+    	that text is block quoted and we can also add citation using cite attribute</blockquote><br />
+
+    	<q>
+    		q tag can be used to put quotes. However injecting it 
+    		through css is a better option.
+    	</q><br />
+        We can use abbr tag to write abbriviations such as follows:
+    	<abbr title="Extensible MarkUp Language">XML </abbr>
+    </p> 
+    <p>We can use address element to indicate address or contact information</p>
+    <address>
+    	<a href="abcd@gmail.com">E-Mail</a>
+
+         Banglore 0097
+    </address>
+    <p>We can use cite tag independently also to indicate citation </p>
+    <cite>It is a citation </cite><br />
+
+    <p>The code tag can be used to show a short fragment of code: <br />
+     <code>
+     	public class HelloHtml{ <br />
+     	   public static void main (String [] args){ <br />
+     	   System.out.println("Hello World"); <br />
+     	}
+     }
+     </code>
+  
+    </p> <br />
+
+    <p>
+    	In some situations we may need to write or display something 
+    	from say right to left instead of left to right. <br />
+    	In that case we use bdo tag and set the required attribute<br />
+    	<bdo dir="rtl">Hello</bdo>
+
+    </p>
+
+	
+</body>
+</html>
